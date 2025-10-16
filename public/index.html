@@ -1,1 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TransiCuba - Examen de Manejo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .header h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .progress-bar {
+            background: #e0e0e0;
+            height: 10px;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 15px;
+        }
+
+        .progress-fill {
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            height: 100%;
+            transition: width 0.3s ease;
+        }
+
+        .quiz-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+        .question-number {
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
+        .question-text {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        .answer-btn {
+            width: 100%;
+            padding: 15px 20px;
+            margin-bottom: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            background: white;
+            text-align: left;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            color: #333;
+        }
+
+        .answer-btn:hover:not(:disabled) {
+            border-color: #667eea;
+            transform: translateX(5px);
+        }
+
+        .answer-btn:disabled {
+            cursor: not-allowed;
+        }
+
+        .answer-btn.correct {
+            background: #4CAF50;
+            color: white;
+            border-color: #4CAF50;
+        }
+
+        .answer-btn.incorrect {
+            background: #f44336;
+            color: white;
+            border-color: #f44336;
+        }
+
+        .next-btn {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: transform 0.2s;
+        }
+
+        .next-btn:hover {
+            transform: scale(1.02);
+        }
+
+        .next-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .results {
+            text-align: center;
+        }
+
+        .results h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 32px;
+        }
+
+        .score {
+            font-size: 64px;
+            font-weight: bold;
+            color: #4CAF50;
+            margin: 30px 0;
+        }
+
+        .results-text {
+            font-size: 20px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .restart-btn {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #4CAF50, #45a049);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .restart-btn:hover {
+            transform: scale(1.02);
+        }
+
+        .loading {
+            text-align: center;
+            color: white;
+            padding: 50px;
+            font-size: 20px;
+        }
+
+        .error {
+            background: #f44336;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .file-input-container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .file-input-container h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+
+        .file-input {
+            display: none;
+        }
+
+        .file-label {
+            display: inline-block;
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+
+        .file-label:hover {
+            transform: scale(1.05);
+        }
+
+        .instructions {
+            margin-top: 20px;
+            color: #666;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚗 TransiCuba - Examen de Manejo</h1>
+            <p>Practica para tu examen de conducir en Cuba</p>
+        </div>
+
+        <div id="app">
+            <div class="loading">⏳ Iniciando aplicación...</div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js"></script>
+    <script>
+        let db = null;
+        let questions = [];
+        let currentQuestionIndex = 0;
+        let score = 0;
+        let answered = false;
+
+        async function init() {
+            document.getElementById('app').innerHTML = '<div class="loading">⏳ Intentando cargar base de datos...</div>';
+            try {
+                const SQL = await initSqlJs({
+                    locateFile: file => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/${file}`
+                });
+
+                // Intenta cargar desde internet (data/transicuba.db)
+                const response = await fetch('data/transicuba.db');
+                if (!response.ok) throw new Error('No se pudo descargar la base remota');
+
+                const buffer = await response.arrayBuffer();
+                db = new SQL.Database(new Uint8Array(buffer));
+                loadQuestions();
+
+            } catch (error) {
+                console.warn('⚠️ No se pudo cargar automáticamente:', error.message);
+                showManualUpload();
+            }
+        }
+
+        function showManualUpload() {
+            document.getElementById('app').innerHTML = `
+                <div class="file-input-container">
+                    <h2>📁 Cargar Base de Datos</h2>
+                    <p style="margin-bottom: 20px;">Sube el archivo <strong>transicuba.db</strong> para comenzar</p>
+                    <label for="dbFile" class="file-label">
+                        📂 Seleccionar archivo .db
+                    </label>
+                    <input type="file" id="dbFile" class="file-input" accept=".db">
+                    <div class="instructions">
+                        <strong>Instrucciones:</strong><br>
+                        1. Descarga el archivo transicuba.db de la app<br>
+                        2. Haz clic en el botón y selecciona el archivo<br>
+                        3. ¡Comienza a estudiar!
+                    </div>
+                </div>
+            `;
+
+            document.getElementById('dbFile').addEventListener('change', async (e) => {
+                const file = e.target.files[0];
+                if (!file) return;
+
+                document.getElementById('app').innerHTML = '<div class="loading">⏳ Cargando base de datos...</div>';
+                try {
+                    const SQL = await initSqlJs({
+                        locateFile: file => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/${file}`
+                    });
+
+                    const arrayBuffer = await file.arrayBuffer();
+                    db = new SQL.Database(new Uint8Array(arrayBuffer));
+                    loadQuestions();
+                } catch (error) {
+                    document.getElementById('app').innerHTML =
+                        `<div class="error">❌ Error al cargar la base de datos: ${error.message}</div>`;
+                }
+            });
+        }
+
+        function loadQuestions() {
+            try {
+                const questionsQuery = db.exec(`
+                    SELECT id, enunciado, id_examen
+                    FROM tpregunta
+                    ORDER BY RANDOM()
+                    LIMIT 20
+                `);
+
+                if (!questionsQuery[0]) {
+                    throw new Error('No se encontraron preguntas');
+                }
+
+                const questionsData = questionsQuery[0].values;
+
+                questions = questionsData.map(q => {
+                    const answersQuery = db.exec(`
+                        SELECT id, texto, correcto
+                        FROM tcrespuesta
+                        WHERE id_pregunta = ${q[0]}
+                        ORDER BY RANDOM()
+                    `);
+
+                    const answers = answersQuery[0].values.map(a => ({
+                        id: a[0],
+                        text: a[1],
+                        correct: a[2] === -1
+                    }));
+
+                    return {
+                        id: q[0],
+                        question: q[1],
+                        answers
+                    };
+                });
+
+                currentQuestionIndex = 0;
+                score = 0;
+                showQuestion();
+            } catch (error) {
+                document.getElementById('app').innerHTML =
+                    `<div class="error">❌ Error al cargar preguntas: ${error.message}</div>`;
+            }
+        }
+
+        function showQuestion() {
+            answered = false;
+            const question = questions[currentQuestionIndex];
+            const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
+
+            document.getElementById('app').innerHTML = `
+                <div class="quiz-card">
+                    <div class="question-number">
+                        Pregunta ${currentQuestionIndex + 1} de ${questions.length}
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: ${progress}%"></div>
+                    </div>
+                    <div class="question-text">${question.question}</div>
+                    <div id="answers"></div>
+                    <button class="next-btn" onclick="nextQuestion()" disabled>
+                        Siguiente →
+                    </button>
+                </div>
+            `;
+
+            const answersContainer = document.getElementById('answers');
+            question.answers.forEach((answer, index) => {
+                const btn = document.createElement('button');
+                btn.className = 'answer-btn';
+                btn.textContent = answer.text;
+                btn.onclick = () => selectAnswer(index);
+                answersContainer.appendChild(btn);
+            });
+        }
+
+        function selectAnswer(index) {
+            if (answered) return;
+            answered = true;
+
+            const question = questions[currentQuestionIndex];
+            const buttons = document.querySelectorAll('.answer-btn');
+            const nextBtn = document.querySelector('.next-btn');
+
+            buttons.forEach((btn, i) => {
+                btn.disabled = true;
+
+                if (question.answers[i].correct) btn.classList.add('correct');
+                if (i === index && !question.answers[i].correct) btn.classList.add('incorrect');
+            });
+
+            if (question.answers[index].correct) score++;
+            nextBtn.disabled = false;
+        }
+
+        function nextQuestion() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.length) showQuestion();
+            else showResults();
+        }
+
+        function showResults() {
+            const percentage = Math.round((score / questions.length) * 100);
+            let message = '';
+
+            if (percentage >= 90) message = '🎉 ¡Excelente! Estás listo para el examen';
+            else if (percentage >= 70) message = '👍 Muy bien, pero sigue practicando';
+            else if (percentage >= 50) message = '📚 Necesitas estudiar un poco más';
+            else message = '💪 Sigue practicando, vas a mejorar';
+
+            document.getElementById('app').innerHTML = `
+                <div class="quiz-card results">
+                    <h2>📊 Resultados</h2>
+                    <div class="score">${percentage}%</div>
+                    <div class="results-text">
+                        Respondiste correctamente ${score} de ${questions.length} preguntas
+                    </div>
+                    <p style="font-size: 24px; margin-bottom: 30px;">${message}</p>
+                    <button class="restart-btn" onclick="init()">
+                        🔄 Intentar de nuevo
+                    </button>
+                </div>
+            `;
+        }
+
+        init();
+    </script>
+</body>
+
+</html>
