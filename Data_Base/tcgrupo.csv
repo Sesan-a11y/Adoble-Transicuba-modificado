@@ -1,0 +1,17 @@
+id,nombre,letra,descripcion,categoria,articulo
+1,Peligro o precaución,A,Señales de peligro o precaución,1,Artículo 160
+2,Prioridad,B,Señales de prioridad,1,Artículo 162
+3,Prohibición,C,Señales de prohibición,1,Artículo 164
+4,Obligación,D,Señales de obligación,1,Artículo 166
+5,Fin de prohibición u obligación,E,Señales de fin de prohibición u obligación,1,Artículo 168
+6,Información,F,Señales de información,1,Artículo 170
+7,Orientación,G,Señales de orientación,1,Artículo 172
+8,Pasos a nivel,H,Señales para los pasos a nivel,1,Artículo 173
+9,Otros señalamientos,-,Otros señalamientos ,1,Artículo 174
+10,Marcas paralelas a la circulación,-,"Las marcas paralelas a la circulación son aquellas marcas viales que dividen los carriles o sendas y regulan los tramos donde se permite o prohíbe el adelantamiento, el pase a otro carril o senda.
+",2,Artículo 178
+11,Marcas transversales a la circulación,-,"Las marcas transversales son las dispuestas de forma perpendicular al sentido de circulación de las corrientes vehiculares
+",2,Artículo 179
+12,Otras marcas,-,,2,Artículo 180
+13,Agente de la autoridad de la vía,-,Señales del agente de la autoridad de la vía,3,Artículo 63
+14,Señales mediante luces,-,Señales mediante luces,4,

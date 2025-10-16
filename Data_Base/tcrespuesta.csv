@@ -1,0 +1,852 @@
+id,texto,correcto,id_pregunta
+600,"Circular por la izquierda, en una vía urbana o rural de doble sentido de dirección.",0,201
+601,"Transitar de acuerdo con el sentido de circulación señalizado en la vía de un solo sentido de dirección.
+",-1,201
+602,"Circular por el carril del centro, en una vía de tres o más sendas destinadas a la circulación en un mismo sentido, cuando se circula a marcha lenta.",0,201
+603,En toda clase de vías.,-1,202
+604,"Sólo en vías urbanas.
+",0,202
+605,"En cualquier vía, salvo en las calles residenciales.",0,202
+606,"En posición inclinada hacia abajo, con la palma de la mano hacia atrás.",0,203
+607,"Extendido en posición horizontal, con la palma de la mano hacia adelante.",-1,203
+608,"En posición vertical hacia arriba.
+",0,203
+609,"La distancia a recorrer no exceda 20 metros, debiendo observar la vía detrás del vehículo mientras dure la maniobra.",-1,204
+610,La velocidad sea de 30 kilómetros por hora.,0,204
+611,Obstrucciona la circulación levemente.,0,204
+612,Vehículo de transporte público de pasajeros.,-1,205
+613,Camiones.,0,205
+614,Rastras.,0,205
+615,"Sí, siempre, ya que está permitido totalmente.",0,206
+616,"No, nunca.",0,206
+617,"Sí, a veces, en casos de fuerza mayor y haciendo la señal adecuada.",-1,206
+618,Nunca.,0,207
+619,"A veces, en casos de fuerza mayor y por el tiempo mínimo indispensable.",-1,207
+620,Siempre.,0,207
+621,Al transitar por una vía preferencial.,0,208
+622,Cuando un peatón se encuentre en la calzada.,-1,208
+623,Frente a las unidades de la Policía Nacional Revolucionaria.,0,208
+624,"Al llegar al lugar de destino, los responsables de la caravana detendrán el tránsito, si fuera necesario, cuando las personas transportadas requieran atravesar a pie una vía.",-1,209
+625,"No podrá adelantar a otro vehículo en la vía, salvo que este circule a una velocidad inferior a 50 kilómetros por hora en zona urbana y 80 kilómetros por hora en zona rural.",0,209
+626,La distancia entre vehículos será de 10 metros.,0,209
+627,No menos de 50 centímetros.,-1,210
+628,40 centímetros.,0,210
+629,45 centímetros.,0,210
+630,Su tiempo acaba de comenzar.,0,211
+631,Su tiempo está por concluir.,-1,211
+632,Ambas cosas.,0,211
+633,"Indica la proximidad de dos o más curvas, la primera a la izquierda.",0,212
+634,"Indica la proximidad de un desvío en la circulación.
+",-1,212
+635,Indica la existencia de un terraplén.,0,212
+636,"Sí, ya que la vía lo permite.",0,213
+637,"No, ya que las líneas continuas lo prohíben.",-1,213
+638,"Sí, ya que no se aproxima ningún vehículo en sentido opuesto.",0,213
+639,A veces.,0,214
+640,No.,0,214
+641,Sí.,-1,214
+642,"Sí, las luces largas o de carretera.",0,215
+643,"Sí, las de cruce o cortas.",-1,215
+644,No.,0,215
+645,"No, nunca.",-1,216
+646,"Sí, en cualquier caso.",0,216
+647,"A veces, cuando está de prueba por el taller.",0,216
+648,"Categoría ""C-1"".",-1,217
+649,"Categoría ""C"".",0,217
+650,"Categoría ""D"".",0,217
+651,"Es detectado conduciendo un vehículo de motor, bajo los efectos del alcohol.",-1,218
+652,"A los conductores noveles que hayan cometido más de dos infracciones ""Muy Peligrosas"".",0,218
+653,A los conductores noveles que dentro de un año natural acumulen más de dos tercios (2/3) de la puntuación que al efecto se determine por el Ministerio del Interior en las disposiciones complementarias a la presente Ley.,0,218
+654,Cancelación de la licencia de conducción.,0,219
+655,Sanción de privación de libertad.,-1,219
+656,Multa de 1500.00 pesos y resarcir los daños causados.,0,219
+657,2 infracciones.,0,220
+658,1 Infracción.,-1,220
+659,3 infracciones.,0,220
+660,"Reanudar la marcha.
+",0,221
+661,Disminuir la velocidad.,0,221
+662,Detenerse de inmediato.,-1,221
+663,Dar cuenta de inmediato a la Policía Nacional Revolucionaria en todos los casos y ante cualquier circunstancia.,0,222
+664,Dar cuenta de inmediato a la Policía Nacional Revolucionaria solo en los casos en que resulten personas muertas o lesionadas.,0,222
+665,"Dar cuenta de inmediato a la Policía Nacional Revolucionaria en los casos en que resulten personas muertas o lesionadas, y en todos los casos en que participe un vehículo estatal, se afecte la propiedad estatal, o se afecte cualquier bien mueble o inmueble cuando no está presente el perjudicado.",-1,222
+666,Disminuir velocidad.,0,223
+667,Accionar el claxon o aparato similar.,0,223
+668,Detener el vehículo y ceder el paso.,-1,223
+669,No obligue a otro vehículo que se aproxime a realizar un cambio brusco en su dirección o velocidad.,-1,224
+670,La velocidad es de 30 kilómetros por hora.,0,224
+671,Siempre.,-1,225
+672,A veces.,0,225
+673,Nunca.,0,225
+674,"Sí, siempre, ya que está permitido totalmente.",0,226
+675,"No, nunca, ya que está prohibido.",0,226
+676,"Sí, a veces, con el permiso del Ministerio del Interior situando previamente las señales adecuadas.",-1,226
+677,Omnibus articulados.,0,227
+678,Vehículos cuyo peso máximo autorizado no exceda de los 6000 kilogramos.,0,227
+679,Vehículos que en su circulación no son capaces de alcanzar y mantener una velocidad de 60 kilómetros por hora.,-1,227
+680,50 kilómetros por hora para todos los vehículos.,-1,228
+681,60 kilómetros por hora para los automóviles de hasta 3 500 kilogramos y los ómnibus.,0,228
+682,40 kilómetros por hora para los automóviles dedicados al transporte de carga.,0,228
+683,"No provoque ruidos innecesarios, polvo u otras incomodidades.",-1,229
+684,No reciba mucho sol.,0,229
+685,Se mantenga seca.,0,229
+686,Paralelo a la dirección de la circulación y junto a la acera o borde derecho de la calzada.,-1,230
+687,Paralelo a la dirección de la circulación y junto a la acera y borde de la izquierda.,0,230
+688,De forma transversal a la vía.,0,230
+689,Prohíbe el paso.,0,231
+690,Prohíbe temporalmente el paso antes de un paso a nivel.,0,231
+691,Obliga a los conductores a continuar con precaución hasta rebasar la zona regulada.,-1,231
+692,10 metros antes de donde está.,0,232
+693,Desde que se observa.,0,232
+694,Desde el lugar donde está ubicada.,-1,232
+695,El color de la pintura de la marca.,0,233
+696,El diseño de su trazado en el pavimento.,-1,233
+697,El lugar donde está ubicada.,0,233
+698,A veces.,0,234
+699,No.,0,234
+700,Sí.,-1,234
+701,"Manteniéndolo inclinado hacia abajo, con la palma de la mano hacia atrás.",0,235
+702,En posición vertical hacia arriba.,-1,235
+703,"Extendido en posición horizontal, con la palma de la mano hacia abajo.",0,235
+704,"No, nunca.",-1,236
+705,"Sí, en cualquier caso.",0,236
+706,"A veces, cuando está de prueba por el taller.",0,236
+707,"Los habituales al uso de sustancias tóxicas, alucinógenas o de efectos similares, o a los alcohólicos.",-1,237
+708,Los que posean los conocimientos debidos para cumplir las exigencias establecidas a tales efectos.,0,237
+709,Los que no hayan sido inhabilitados para ello por los tribunales o funcionarios competentes del Ministerio del Interior o del Ministerio de Salud Pública.,0,237
+710,Se detecten conduciendo bajo los efectos del alcohol.,-1,238
+711,Se presente voluntariamente al órgano de licencia de conducción a cumplir sanción.,0,238
+712,Realice los exámenes teórico y prácticos.,0,238
+713,Cancelación de la licencia de conducción.,0,239
+714,Suspensión de la licencia de conducción.,0,239
+715,Multa de 200.00 pesos.,-1,239
+716,4 infracciones.,0,240
+717,3 infracciones.,0,240
+718,2 infracciones.,-1,240
+719,"Sí, siempre, ya que está permitido totalmente.",0,241
+720,"No, nunca, ya que está prohibido.",-1,241
+721,"Sí, cuando no existan peatones o vehículos en la vía transversal.",0,241
+722,Exenta de pago.,-1,242
+723,Se paga la mitad del importe.,0,242
+724,Se aplica solo a los conductores novel.	,0,242
+725,Ceder el paso en el cruce de un paso a nivel con barreras u otras señales sonoras y lumínicas.,0,243
+726,Disminuir la velocidad.,0,243
+727,"Detener la marcha a no menos de tres metros del carril de la vía férrea más cercano, en todos los pasos a nivel que no tengan señalización que establece la conducta a seguir.
+",-1,243
+728,Al aproximarse a un puente.,0,244
+729,"En los lugares que no ponga en peligro a los demás usuarios de la vía, ni obstaculice la circulación.",0,244
+730,A 200 metros anteriores a la entrada o posteriores a la salida de una curva.,-1,244
+731,"A veces, para tomar pasajeros.",0,245
+732,Nunca.,0,245
+733,"Siempre.
+",-1,245
+734,"Sí, siempre, ya que está permitido totalmente.
+",0,246
+735,"No, nunca, ya que está prohibido.
+",-1,246
+736,"Sí, a veces, cuando presenta fallos técnicos.	
+",0,246
+737,"Siempre.
+",-1,247
+738,"Nunca.
+",0,247
+739,"A veces, para ahorrar combustible.	
+",0,247
+740,"90 kilómetros por hora.
+",0,248
+741,"70 kilómetros por hora.
+",0,248
+742,"100 kilómetros por hora.	
+",-1,248
+743,"Solo podrá transportar mayor números de personas de las que admite su capacidad, cuando las personas viajen sentadas en bancos o asientos.",0,249
+744,"No podrá llevar cajas ni otro tipo de carga.
+",0,249
+745,"Podrá transportar personas de pie en la cama o caja, solo en viajes de una hora.",-1,249
+746,En pendiente ascendente y descendente.,-1,250
+747,"Solo en pendiente ascendente.
+",0,250
+748,"Solo en pendiente descendente.	
+",0,250
+749,Aumentar la velocidad.,0,251
+750,"Disminuir la velocidad y ceder el paso.
+",0,251
+751,"Detenerse en la línea de ""Pare"" a no ser que se encuentre tan cerca de la intersección que no pueda detener el vehículo en condiciones de seguridad suficiente.",-1,251
+752,El límite máximo de velocidad a que se puede circular.,0,252
+753,La conveniencia de no rebasar la velocidad señalada. ,-1,252
+754,"El límite mínimo de velocidad a que se puede circular.
+",0,252
+755,"En pasos a nivel, puentes, túneles o intercambio.
+",0,253
+756,A 140 metros de una curva de visibilidad reducida.,0,253
+757,En cualquier lugar en que para efectuar la maniobra no se vea obligado a retroceder.,-1,253
+758,"Sí.
+",-1,254
+759,"No.
+",0,254
+760,"A veces, cuando está cargado.	
+",0,254
+761,"150 metros.
+",-1,255
+762,"100 metros.
+",0,255
+763,"50 metros.	
+",0,255
+764,"Siempre, ya que es obligatorio.
+",-1,256
+765,"Nunca.
+",0,256
+766,"A veces, ya que es opcional.	
+",0,256
+767,"Sí, cualquier ciclomotor.
+",-1,257
+768,"Sí, pero sólo ciclomotores de dos ruedas.
+",0,257
+769,"No, es imprescindible poseer la categoría A1.	
+",0,257
+770,"No son notificados por cometer alguna infracción del tránsito en un periodo de 180 días.
+",-1,258
+771,"No son notificados por cometer alguna infracción del tránsito en un periodo de 90 días.
+",0,258
+772,"No son notificados por cometer alguna infracción del tránsito en un periodo de un año.	
+",0,258
+773,"Multa de 300.00 pesos.
+",-1,259
+774,"Cancelación de la licencia de conducción.
+",0,259
+775,"Suspensión de la licencia de conducción.	
+",0,259
+776,"4 infracciones.
+",0,260
+777,"2 infracciones.
+",-1,260
+778,3 infracciones.,0,260
+779,Permanecer sentados en vehículos con barandas inferiores a 120 centímetros.,-1,261
+780,Descender o abordar con el vehículo detenido y hacerlo por cualquier lado de la vía.,0,261
+781,"Llevar parte del cuerpo u objetos fuera de la cabina o cama.	
+",0,261
+782,Se le cancela la licencia de conducción por una año.,0,262
+783,Se le suspenderá la licencia de conducción en un periodo que puede oscilar entre 30 hasta 90 días.,0,262
+784,Se le suspenderá la licencia de conducción en un periodo de 180 días a un año.,-1,262
+785,"A los vehículos que circulen por la vía transversal, sea cualquiera el lado por el que se aproximen.",0,263
+786,A los vehículos que se aproximen por la izquierda.,0,263
+787,A los vehículos que se aproximen por la derecha.,-1,263
+788,"Sí, porque el camión no permite la visibilidad de la parte delantera de la vía destinada al sentido contrario.",-1,264
+789,"No, si se circula lentamente.	
+",0,264
+790,"No, porque me sirve de protección.",0,264
+791,"Nunca.
+",-1,265
+792,"Siempre.
+",0,265
+793,"En los casos que se empleen aditamentos que permitan utilizarlos sin emplear las manos.	
+",0,265
+794,"Girar a la izquierda.
+",-1,266
+795,"Detenerse.
+",0,266
+796,Seguir recto.,0,266
+797,Siempre.,0,267
+798,"A veces, cuando el sistema de frenos del remolcado está defectuoso.",-1,267
+799,Nunca.,0,267
+800,En una intersección cuando el semáforo no funciona o no se observan algunas de sus luces encendidas.,-1,268
+801,"Ante el vehículo que se aproxima por la vía transversal, por su lado izquierdo, en vías de igual categoría.",0,268
+802,"Al aproximarse a una señal de ""Prohibición de Parqueo"".
+",0,268
+803,"Sí, siempre.",0,269
+804,No.,-1,269
+805,"Sí, a veces, con autorización de su empresa.",0,269
+806,"No, nunca.",0,270
+807,"Si, a veces.",0,270
+808,"Si, siempre.
+",-1,270
+809,"Siempre, ya que está permitido totalmente.
+",0,271
+810,"Nunca, ya que está prohibido.",0,271
+811,Con el permiso del Ministerio del Interior.	,-1,271
+812,"El sentido que deben seguir los vehículos obligatoriamente en el punto donde está situada la señal.
+",-1,272
+813,"Que la vía por la cual se transita es de una sola dirección, en el sentido que indica la flecha de la señal;  cuando se coloca en forma perpendicular al eje de la vía por la que se circula.",0,272
+814,"Que la vía transversal es de una sola dirección en el sentido que indica la flecha; cuando se coloca paralela al eje de la vía a que se refiere la señal.
+",0,272
+815,"Sí, ya que se puede cruzar porque la línea discontinua se encuentra a su izquierda.
+",-1,273
+816,"No, ya que la línea continua unida a la discontinua lo prohíbe.  ",0,273
+817,"No, ya que a lo lejos hay un cambio de rasante.",0,273
+818,A veces.,0,274
+819,No.,0,274
+820,Sí.,-1,274
+821,Cualquier otro sistema de luces.,0,275
+822,Posición trasera.,-1,275
+823,"Marcha atrás.
+",0,275
+824,"Sí, en cualquier caso.",0,276
+825,"Sí, si se tiene espejo retrovisor.",0,276
+826,"No, nunca, por estar prohibido.",-1,276
+827,"Categoría ""D"".",0,277
+828,"Categoría ""F"".",-1,277
+829,"Categoría ""C"".
+",0,277
+830,"Advertencia, y pagar triple.",0,278
+831,"Suspensión, superior a seis meses y hasta un año.",0,278
+832,"Cancelación, por un periodo que puede oscilar entre uno y tres años.
+",-1,278
+833,Suspensión de la licencia de conducción.,0,279
+834,Multa de 1500.00 pesos y resarcir los daños causados.,-1,279
+835,Cancelación de licencia de conducción.,0,279
+836,4 infracciones.,0,280
+837,2 infracciones.,-1,280
+838,3 infracciones.,0,280
+839,"Hacerlo por el carril inmediato izquierdo, cuando transite a velocidad inferior a los 60 kilómetros por hora.",0,281
+840,"Hacerlo siempre por el carril de su extrema derecha, cuando transite a una velocidad inferior a los 60 kilómetros por hora, y utilizar el inmediato izquierdo para adelantar.",-1,281
+841,Hacerlo siempre por el carril de su extrema derecha cuando transite a la velocidad máxima permitida.,0,281
+842,Se le duplicará el importe de la multa correspondiente a la infracción cometida.,-1,282
+843,Se le suspenderá la licencia de conducción por un mes.,0,282
+844,"Se le impondrá una advertencia.
+",0,282
+845,Ceder el paso al vehículo que se aproxima por la senda o carril al que pretende incorporarse.,-1,283
+846,"Detener la marcha, cualesquiera que sean las circunstancias de visibilidad.",0,283
+847,Ceder el paso a los vehículos que se aproximan en sentido opuesto por la misma vía.,0,283
+848,Comprobar que nadie circula detrás de usted.,0,284
+849,"Comprobar que puede efectuarlo por senda izquierda, sin ocasionar interferencia a los demás conductores de vehículos.",-1,284
+850,Realizar la maniobra por encima del límite máximo de velocidad para hacerlo rápido.,0,284
+851,"10 toneladas métricas.
+",-1,285
+852,"30 toneladas métricas.
+",0,285
+853,"20 toneladas métricas.
+",0,285
+854,Indica el cruce de una carretera o camino con otra de igual categoría.,-1,286
+855,Un entronque lateral derecho.,0,286
+856,Un entronque lateral izquierdo.,0,286
+857,"Hacer las señales, apagando y encendiendo las luces.
+",0,287
+858,Sonar el claxon.,0,287
+859,Hacer las señales empleando alternativamente el cambio de luces.	,-1,287
+860,Al circular por una vía de doble sentido normalmente.,0,288
+861,Ante la presencia de un peatón discapacitado.,-1,288
+862,"Al aproximarse a una zona de niños en zona urbana.
+
+",0,288
+863,"Solo podrá transportar un mayor número de personas de las que admite su capacidad, cuando las necesidades de la transportación requieran lo contrario.",0,289
+864,"Solo podrá transportar 4 personas de pie por cada metro cuadrado en viajes de una hora.
+",-1,289
+865,"Podrá transportar personas sentadas en la parte exterior de la cama o caja, cuando no cuente con bancos o asientos.",0,289
+866,"No, nunca.
+",-1,290
+867,"Sí, a veces, cuando hay poco tránsito.
+",0,290
+868,"Sí, siempre.	
+",0,290
+869,"Cuando obstruccione o dificulte la entrada y salida de estos.	
+",-1,291
+870,"Sí, siempre.",0,291
+871,"No, nunca.",0,291
+872,"Detener la marcha.
+",0,292
+873,"Moderar la velocidad.
+",0,292
+874,Indica la existencia de un paso para peatones en las cuales este tiene la prioridad en el cruce.,-1,292
+875,"Una zona donde sólo circulan peatones.
+",0,293
+876,"Una isleta que los vehículos no deben franquear.
+",0,293
+877,El lugar destinado para que los peatones crucen la vía con preferencia en el cruce.,-1,293
+878,"No, nunca.
+",0,294
+879,"Sí, siempre.
+",-1,294
+880,"Sí, a veces, cuando es una moto.	
+",0,294
+881,"Sí, siempre que haya eficiente alumbrado público.
+",0,295
+882,"No, excepto, cuando es deficiente el alumbrado público.
+",-1,295
+883,"No, nunca.	
+",0,295
+884,"Ministerio de la Industria Sideromecánica para medios muy modernos.
+",0,296
+885,"Ministerio del Transporte en todos los vehículos nuevos.
+",0,296
+886,Ministerio del Interior según la periodicidad y forma que este determine.,-1,296
+887,"Durante un período de tres años naturales, después de habérseles suspendido la licencia de conducción administrativa o judicialmente, incurran en una nueva infracción calificada como ""muy peligrosa"".",0,297
+888,Siendo conductores profesionales tengan 5 infracciones del primer grupo.,0,297
+889,"En su condición de conductor profesional y actuando como tal, en dos ocasiones, durante un período de tres años naturales se les suspenda la licencia de conducción por conducir bajo los efectos del alcohol.",-1,297
+890,Indica la proximidad de una intersección donde se prohíbe girar a la derecha.,-1,298
+891,Indica la proximidad a una curva hacia el lado derecho del sentido de la circulación.,0,298
+892,Indica a los vehículos el sentido que deben seguir obligatoriamente en el punto donde está situada la señal.,0,298
+893,Multa de 100.00 pesos.,-1,299
+894,"Ocuparle la chapa del vehículo.
+",0,299
+895,"Suspensión de la licencia de conducción.	
+",0,299
+896,"2 infracciones.
+",0,300
+897,"4 infracciones.
+",0,300
+898,3 infracciones.,-1,300
+899,"A los conductores de vehículos que pueden realizar en las intersecciones semaforizadas giros de derecha con extrema precaución, cediéndoles el paso a los conductores y peatones que transitan por la intersección con la luz verde correspondiente.",-1,301
+900,"Que todo vehículo está obligado a disminuir la velocidad y parar si fuera necesario, para permitir el paso a todos los vehículos que circulan por la vía preferente.",0,301
+901,Que los conductores de vehículos pueden continuar la marcha en las intersecciones de bajo volumen de tránsito ya que tienen prioridad.,0,301
+902,"Solamente en vías urbanas.
+",0,302
+903,"Solamente en zona rural.
+",0,302
+904,"En todas las vías.	
+",-1,302
+905,"Efectuar el giro o el cambio de senda o carril inmediatamente.
+",0,303
+906,"Cerciorarse antes de efectuar la maniobra que no ocasiona interferencias a la circulación, ni da lugar a un accidente.
+",-1,303
+907,"Realizar la maniobra por el paseo.	
+",0,303
+908,A menos de 150 metros anteriores a la entrada o posteriores a la salida de una curva de visibilidad reducida o cambio de rasante que no permitan ver la continuación de la vía.,0,304
+909,"A 100 metros de un intercambio.
+",0,304
+910,En aquellos lugares donde para efectuar la maniobra no se vea obligado a retroceder.,-1,304
+911,"El volumen no moleste o impida la debida concentración en la conducción del vehículo.
+",-1,305
+912,"Nunca.
+",0,305
+913,"Siempre.	
+",0,305
+914,"Sí, siempre, ya que está permitido totalmente.
+",0,306
+915,"No, nunca, ya que está prohibido.
+",-1,306
+916,"Si, a veces, con el permiso del Ministerio del Interior.",0,306
+918,"Nunca.
+",0,307
+919,"A veces, en casos de fuerza mayor y por el tiempo mínimo indispensable.
+",-1,307
+920,"Siempre.	
+",0,307
+921,"80 kilómetros por hora.
+",-1,308
+922,"70 kilómetros por hora.
+",0,308
+923,"60 kilómetros por hora.	
+",0,308
+924,"No haga ruidos.
+",0,309
+925,"No estorbe la visibilidad del conductor.
+",-1,309
+926,"No se moje.	
+",0,309
+927,Para facilitar la maniobra de adelantamiento de otro vehículo.,0,310
+928,"Frente a los lugares de espectáculos públicos, a la hora de entrada y salida del público.",-1,310
+929,"Al aproximarse a la entrada de túneles, puentes, pasos superiores, inferiores e intercambios.",0,310
+930,Cuando conduzca un vehículo de motor sin la compañía de un titular que posea 3 años o más de experiencia en la categoría a la que se aspira.,-1,311
+931,"Cuando cumpliendo las regulaciones establecidas para el aprendizaje, cometa una infracción del tránsito.",0,311
+932,"Cuando cometa más de dos infracciones de las regulaciones del tránsito calificadas como ""muy peligrosas"".",0,311
+933,"Una.
+",0,312
+934,"Dos.
+",-1,312
+935,"Tres.	
+",0,312
+936,"Que ningún vehículo podrá cruzarlas o circular sobre ellas, solo de noche.",0,313
+937,Que los conductores solo podrán cruzarlas cuando requieran hacer una maniobra de adelantamiento.,0,313
+938,Que ningún vehículo podrá cruzarlas ni circular sobre ellas.,-1,313
+939,"No, nunca.
+",0,314
+914,"Sí, siempre.
+",-1,314
+941,"Sí, a veces, cuando es una moto.	
+",0,314
+942,"Dos delante.
+",0,315
+943,"Dos delante y dos detrás.
+",-1,315
+944,"Dos detrás.	
+",0,315
+945,"Todos los tipos.
+",0,316
+946,"Sólo los vehículos de transporte de carga.
+",0,316
+947,"Ómnibus y vehículos de transporte de carga.	
+",-1,316
+948,"Categoría ""D"".
+",0,317
+949,"Categoría ""E"".
+",-1,317
+950,"Categoría ""C"".	
+",0,317
+951,"60 años de edad.
+",0,318
+952,"70 años de edad.
+",-1,318
+953,"75 años de edad.	
+",0,318
+954,"Suspensión de la licencia de conducción.
+",0,319
+955,"Cancelación de la licencia de conducción.
+",0,319
+956,"Sanción de privación de libertad.	
+",-1,319
+957,"5 infracciones.
+",-1,320
+958,"4 infracciones.
+",0,320
+959,3 infracciones.,0,320
+960,"Arrimarlo y detenerlo al borde derecho de la vía, en el sentido en que circula.
+",-1,321
+961,"Cambiar de senda o carril utilizando el inmediato derecho, cuando transita por una vía de más de dos sendas o carriles en un mismo sentido de dirección y continuar su desplazamiento en marcha lenta.",0,321
+962,"Continuar su desplazamiento por la senda o carril por el que se encuentre circulando, disminuyendo la velocidad, para permitir el adelantamiento por el lado izquierdo del eje central de la vía.",0,321
+963,"Si.
+",-1,322
+964,"No.
+",0,322
+965,"A veces.	
+",0,322
+966,"Detener la marcha, cualesquiera que sean las circunstancias de visibilidad dándole prioridad a los vehículos que circulan por la vía transversal.",-1,323
+967,"Disminuir la velocidad y parar si fuera necesario, a fin de permitir el paso a todos los vehículos que se aproximen por la vía transversal.",0,323
+968,"Moderar la velocidad y parar cuando las condiciones de visibilidad así lo aconsejen, continuando la marcha cuando no se aproxime ningún vehículo por la vía transversal.",0,323
+969,"Desde el carril de la extrema derecha de la calzada por donde circula, siempre que las condiciones físicas de la vía lo permitan, hacia la calzada por donde se propone circular, sin estar obligado a incorporarse a un carril específico cuando existan varios, con tal que no interfiera a los vehículos que circulan por la vía a la que se pretende incorporar.",-1,324
+970,Desde la senda de la extrema izquierda.,0,324
+971,"Desde el carril del centro siempre que las condiciones físicas de la vía lo permitan, hacia la calzada por donde se propone circular.",0,324
+972,"A 60 metros.
+",0,325
+973,A 50 metros.,-1,325
+974,A 100 metros. ,0,325
+975,"Sustituir las luces de carretera o largas por las de cruce o cortas para evitar el deslumbramiento de los vehículos que se aproximen en sentido contrario.
+",0,326
+976,"Realizar cambios de luces a intervalos regulares hasta rebasar la zona de no visibilidad.
+",-1,326
+977,"En zona rural, mantener las luces de carretera o largas y accionar el claxon a intervalos, para advertir a otros usuarios de su presencia en la vía.",0,326
+978,"Sí, cuando se circula en vehículo de transporte público urbano de pasajeros o de transporte de materiales inflamables o explosivos.",-1,327
+979,"Sí, en cualquier caso.",0,327
+980,"No, nunca.",0,327
+981,"70 kilómetros por hora
+",-1,328
+982,"80 kilómetros por hora.
+",0,328
+983,"90 kilómetros por hora.	
+",0,328
+984,"En el período de un año natural cometan una infracción de las regulaciones del tránsito calificadas como ""muy peligrosas"", conduciendo un vehículo de uso personal, después de haber ingerido bebidas alcohólicas.",0,329
+985,"En más de una ocasión, dentro de un año natural, conduzcan un vehículo sin las correspondientes chapas de identificación expedidas por el Registro de Vehículos.",-1,329
+986,En su condición de conductor profesional y actuando como tal le impongan 6 multas del primer grupo.,0,329
+987,"En terreno llano.
+",0,330
+988,"En pendiente ascendente.
+",0,330
+989,"En pendiente descendente.	
+",-1,330
+990,"Moderar la velocidad y pasar con precaución.
+",0,331
+991,"Continuar normal ya que se tiene derecho de vía.
+",0,331
+992,"Detenerse, y continuar cuando por la vía transversal no se aproxima ningún vehículo.	
+",-1,331
+993,"La prohibición de circular por una vía en los dos sentidos, a todos los vehículos, incluyendo los de tracción animal o humana.",0,332
+994,"La prohibición de circular por la vía a todos los vehículos, incluso los de tracción animal o humana, en el sentido hacia el cual indica la señal y se permite circular en el sentido opuesto.",-1,332
+995,Que la circulación es obligatoria a todos los vehículos de motor incluyendo las motocicletas.,0,332
+995,"No, debe trasladarse de inmediato a la Unidad de la Policía.",0,333
+997,"No, si el accidente es de noche.",0,333
+998,"Sí, excepto para trasladar víctimas a recibir asistencia médica o tenga él que recibirla.",-1,333
+999,"A veces.
+",0,334
+1000,"No.
+",0,334
+1001,"Sí.	
+",-1,334
+1002,"Reducir la velocidad lo necesario, incluso hasta la detención total del vehículo, para evitar un accidente.
+",-1,335
+1003,"Moderar la velocidad.
+",0,335
+1004,"Solicitar el cambio de luces al conductor que se aproxima en sentido contrario.	
+",0,335
+1005,"Todos los vehículos de motor.
+",0,336
+1006,"Todos los vehículos.
+",0,336
+1007,"Todos los automóviles, excepto las motocicletas.	
+",-1,336
+1008,"Siendo conductores de vehículos de carga o transporte de pasajeros, conductores de vehículos pertenecientes al sector estatal, en dos ocasiones, durante un período de tres años naturales, se les suspenda la licencia de conducción por conducir bajo los efectos del alcohol.",-1,337
+1009,En un año natural cometan más de cuatro infracciones del primer grupo.,0,337
+1010,"En una ocasión en el período de un año natural, conduzcan un vehículo de motor sin las correspondientes chapas de identificación expedidas por el Registro de Vehículos.",0,337
+1011,"Sí, las luces cortas o las de posición.",-1,338
+1012,"No, ya que hay iluminación suficiente.",0,338
+1013,"Sí, las de parada de emergencia.",0,338
+1014,"Suspensión de la licencia de conducción.
+",0,339
+1015,"Cancelación de la licencia de conducción.
+",0,339
+1016,"Sanción de privación de libertad.	
+",-1,339
+1017,"4 Infracciones.
+",0,340
+1018,"3 Infracciones.
+",-1,340
+1019,2 Infracciones.,0,340
+1020,"Sí, en detenciones prolongadas ocasionadas por el tráfico.",0,341
+1021,"Sí, siempre que no sorprenda indebidamente a los demás conductores.
+",0,341
+1022,"No, porque está prohibido.	
+",-1,341
+1023,"No, nunca, está prohibido, ya que afecta la maniobrabilidad.
+",0,342
+1024,"Sí, de cualquier modo.
+",0,342
+1025,"Sí, a veces, en dispositivos adecuados y sin sobresalir más de 50 centímetros.	
+",-1,342
+1026,"Doble sentido de circulación.
+",-1,343
+1027,"Un solo sentido de circulación.
+",0,343
+1028,"Es un error de señalización.	
+",0,343
+1029,"Por el carril derecho, realizando las señales correspondientes de brazo.
+",0,344
+1030,"Por la derecha, usando el paseo.
+",0,344
+1031,"Por el carril de la izquierda, cumpliendo las exigencias establecidas para el adelantamiento.	
+",-1,344
+1032,"Nunca.
+",0,345
+1033,"A veces.
+",0,345
+1034,"Siempre.	
+",-1,345
+1035,"Tener ganado en zonas o terrenos aledaños a la vía en condiciones que puedan trasladarse hacia ella por si solos.
+",-1,346
+1036,"Tener ganado en zonas o terrenos aledaños a la vía amarrados.
+",0,346
+1037,"Tener ganado en corrales en zonas o terrenos aledaños a la vía.	
+",0,346
+1038,"Sí, siempre, ya que está permitido totalmente.
+",0,347
+1039,"No, nunca, ya que está prohibido.
+",0,347
+1040,"Sí, a veces, cuando se cumple lo dispuesto en los artículos 135 y 136 de la ley 109.	
+",-1,347
+1041,"A 40 kilómetros por hora.
+",0,348
+1042,"A 45 kilómetros por hora.
+",0,348
+1043,"A 50 kilómetros por hora.	
+",-1,348
+1044,"Las barandas del vehículo tendrán una altura inferior a 120 centímetros.
+",0,349
+1045,Llevará cajas u otro tipo de cargas peligrosas solo en los casos que las necesidades de la transportación así lo requieran.,0,349
+1046,No podrá transportar personas sentadas en las barandas laterales o posteriores del vehículo.,-1,349
+1047,"En pendientes descendentes.
+",0,350
+1048,"En pendiente ascendente.
+",-1,350
+1049,"En terreno llano.	
+",0,350
+1050,Entablar conversación con otra persona mientras conduce.,0,351
+1051,Utilizar teléfonos u otros medios de comunicación mientras que el vehículo esté en marcha.,-1,351
+1052,Mantener más de 5 metros de distancia por cada 15 Km/h de velocidad entre vehículos.,0,351
+1053,Indica la restricción de adelantar impuesta a los vehículos.,0,352
+1054,Indica el fin de la restricción de adelantar impuesta a los vehículos de motor.,-1,352
+1055,Indica el fin del doble sentido de circulación de una vía.,0,352
+1056,El que va subiendo.,-1,353
+1057,El que va de bajada.,0,353
+1058,El que circula más rápido.,0,353
+1059,"No.
+",0,354
+1060,"Sí.
+",-1,354
+1061,"A veces.	
+",0,354
+1062,Formar grupo en las aceras.,-1,355
+1063,Circular lo más próximo posible al contén de la acera o borde de la misma.,0,355
+1064,Caminar por el lado derecho de la dirección en que transiten en zona urbana.,0,355
+1065,"Sí, siempre, ya que está permitido totalmente.",0,356
+1066,"No, nunca, ya que está prohibido.",0,356
+1067,"Sí, excepto en las excepciones previstas por la Ley.",-1,356
+1068,"En un año natural, cometan más de tres infracciones del primer grupo.",0,357
+1069,"Durante el período de suspensión de la licencia de conducción, circulen por la vía conduciendo un vehículo de motor.",-1,357
+1070,"Siendo conductores profesionales, en más de una ocasión, durante un año natural, se les suspenda la licencia de conducción por conducir después de haber ingerido bebidas alcohólicas.",0,357
+1071,"Detener la marcha, cualesquiera que sean las circunstancias de visibilidad, dándole prioridad a los vehículos que se aproximan por la vía transversal.",0,358
+1072,"Ceder el paso o detenerse si es necesario, dándole prioridad a los vehículos que por la vía transversal se aproximan por el   lado derecho.",0,358
+1073,"Disminuir la velocidad y parar si fuera necesario, a fin de permitirle el paso a todos los vehículos que se aproximen por la vía transversal.",-1,358
+1074,Solo en vías de dos o más carriles de circulación en un mismo sentido.,0,359
+1075,En cualquier tipo de vía.	,-1,359
+1076,"Solo en vías de doble sentido de circulación, con un dos carriles.",0,359
+1077,"5 Infracciones.
+",0,360
+1078,"4 Infracciones.
+",-1,360
+1079,3 Infracciones.,0,360
+1080,Que los vehículos deben disminuir la velocidad por aproximarse a alguna interrupción en la vía.,0,361
+1081,"Que los vehículos deben detenerse.
+",-1,361
+1082,"Que los vehículos pueden continuar la marcha.	
+",0,361
+1083,Cuando se enciende la luz verde que permite el giro izquierda.,-1,362
+1084,"Cuando no viene nadie en el sentido contrario, sin importar las luces del semáforo.",0,362
+1085,"Cuando existe la señal que lo autoriza, con cualquier luz.",0,362
+1086,Podrá transportar personas sentadas en las barandas del vehículo cuando este no cuente con bancos o asiento.,0,363
+1087,Solo transportará cinco personas de pie por cada metro cuadrado.,0,363
+1088,La velocidad máxima no excederá los 40 kilómetros por hora en zona urbana y los 60 kilómetros por hora en zona rural.,-1,363
+1089,"La maniobra cause obstrucciones en la circulación.
+",0,364
+1090,"La distancia a recorrer sea de 20 metros.
+",-1,364
+1091,"Se realice en un túnel.	
+",0,364
+1092,"A veces.
+",0,365
+1093,"Nunca.
+",-1,365
+1094,"Siempre.	
+",0,365
+1095,"Siempre, ya que está permitido totalmente.
+",0,366
+1096,"Nunca, ya que está prohibido.
+",0,366
+1097,"Con el permiso del Ministerio del Interior.	
+",-1,366
+1098,"Sí, en todos los casos y modos.
+",0,367
+1099,"No, nunca.
+",0,367
+1100,"Sí, excepto en vías cerradas a tal efecto o zona de recreación.	
+",-1,367
+1101,"En camino de tierra o terraplén, no se conducirá a una velocidad superior a los 60 kilómetros por hora.
+",-1,368
+1102,"En zona urbana la velocidad máxima es de 60 kilómetros por hora.
+",0,368
+1103,"En los túneles, la velocidad se mantendrá a 70 kilómetros por hora.",0,368
+1104,"Sonar el claxon con regularidad para avisar que se aproxima una caravana.
+",0,369
+1105,"Que los vehículos estén techados, para proteger a los pasajeros.
+",0,369
+1106,"Llevar encendidas las luces de cruce o cortas, en horas del día.	
+",-1,369
+1107,"No, porque está prohibido.
+",-1,370
+1108,"Podré parar, pero no estacionar.
+",0,370
+1109,"Sí, cuando no haya señal que prohíba parar o estacionar y se pueda pasar, aún con dificultades.	
+",0,370
+1110,"Su tiempo acaba de comenzar.
+",0,371
+1111,"Su tiempo está por concluir.
+",-1,371
+1112,"Ambas cosas.	
+",0,371
+1113,El cruce con una sola vía férrea simple.,-1,372
+1114,El cruce con dos o más vías férreas que no está protegido por barreras o semibarreras.,0,372
+1115,"Peligro por la proximidad de un paso a nivel, con una vía férrea simple, provisto de barreraso semibarreras.",0,372
+1116,"Preferencia en el cruce para peatones.
+",0,373
+1117,Indica que el conductor está obligado a detenerse ante ella.,0,373
+1118,"Indica un lugar destinado a los peatones que cruzan la vía, sin preferencia en el cruce.",-1,373
+1119,Moderar la velocidad y tomar precauciones.,-1,374
+1120,Detener la marcha.	,0,374
+1121,"Ceder el paso.
+",0,374
+1122,"Sólo en los autos ligeros.
+",0,375
+1123,"No, pero es aconsejable.
+",0,375
+1124,"Sí.	
+",-1,375
+1125,"Nunca, ya que es opcional.
+",0,376
+1126,"Solo de noche.
+",0,376
+1127,"Siempre.	
+",-1,376
+1128,"Durante un año natural, se les notifique en más de tres ocasiones con la notificación preventiva.",0,377
+1129,Sean detectados en una ocasión conduciendo un vehículo de motor por la vía pública sin chapas.,0,377
+1130,"No aprueben algunos de los reexámenes médico, teórico o práctico o no lo realicen en el término establecido.",-1,377
+1131,"Ha cumplido el término de una cancelación.
+",-1,378
+1132,"Después de cumplida una medida de suspensión de la licencia de conducción.
+",0,378
+1133,"Después de cumplida una sanción judicial.	
+",0,378
+1134,"Cancelación de la licencia de conducción.
+",0,379
+1135,"Suspensión de la licencia de conducción.
+",0,379
+1136,"Multa de 300.00 pesos.	
+",-1,379
+1137,"3 infracciones.
+",0,380
+1138,"4 infracciones.
+",-1,380
+1139,2 infracciones.,0,380
+1140,"No, porque está prohibido.
+",-1,381
+1141,"Sí, por poblado, siempre que no se rebase los 20 kilómetros por hora.
+",0,381
+1142,"Sí, siempre que lleve puesto el casco de protección.",0,381
+1143,"No, nunca.
+",-1,382
+1144,"Sí, siempre.
+",0,382
+1145,"Sí, a veces, si es para el círculo infantil.",0,382
+1146,"No emprender nuevamente la marcha hasta que se cerciore de que todos los pasajeros han terminado de subir o bajar del vehículo y las puertas se encuentran debidamente cerradas.
+",-1,383
+1147,"Mantener el vehículo detenido por no menos de tres minutos.
+",0,383
+1148,Realizar la detención en cualquier carril.,0,383
+1149,No provoque ningún ruido.,0,384
+1150,"No tape u oculte las luces de frenado y los indicadores de dirección, los dispositivos reflectantes y el número de la placa o chapa.",-1,384
+1151,Se mantenga seca.,0,384
+1152,"Cualquier vehículo destinado a carga o transporte colectivo de pasajeros, vehículos pertenecientes al sector estatal; conductores noveles bajo los efectos del alcohol.
+",-1,385
+1153,"Un vehículo de tracción animal cuando haya ingerido bebidas alcohólicas, sin que afecte su capacidad para conducir.
+",0,385
+1154,Con defectos físicos sin portar documento de autorización.,0,385
+1155,La proximidad de un paso a nivel con protección.,-1,386
+1156,La proximidad de un perfil irregular o badén.   ,0,386
+1157,La proximidad de una bajada peligrosa.	,0,386
+1158,"No exceder los 50 kilómetros por hora de velocidad, en zona urbana o rural.",0,387
+1159,"En zona urbana o rural, disminuir la velocidad, establecida para la vía, en correspondencia con sus condiciones de visibilidad.",0,387
+1160,"En zona urbana, no exceder los 40 kilómetros por hora de velocidad y los 60 kilómetros por hora de velocidad, en zona rural.",-1,387
+1161,"Al acercarse a animales, solos o en rebaños.",-1,388
+1162,"Ante el vehículo que se aproxima por la vía transversal, por su lado izquierdo, en vías de igual categoría.",0,388
+1163,"Al aproximarse a una señal de ""Prohibición de Parqueo"".",0,388
+1164,"Sí, a veces, con permiso de su empresa.
+",0,389
+1165,"Sí, siempre.
+",0,389
+1166,No.,-1,389
+1167,"Siempre.
+",-1,390
+1168,"Nunca.
+",0,390
+1169,A veces.,0,390
+1170,En cambios de rasante en vías de dos o más sendas en el mismo sentido.,0,391
+1171,"En curvas de visibilidad reducida, en vías de doble sentido de circulación.",-1,391
+1172,A 100 metros de un paso a nivel.,0,391
+1173,Una.,0,392
+1174,Dos.,-1,392
+1175,Tres.,0,392
+1176,"Indican el sentido y la dirección correcta que deben tomar los conductores de vehículos.
+",0,393
+1177,"Indica que la vía es de doble sentido.
+",0,393
+1178,Indica que no se puede cruzar ni circular sobre ella.,-1,393
+1179,Sí.,-1,394
+1180,No.,0,394
+1181,A veces.,0,394
+1182,1-Señales de los agentes de la autoridad;<br>2- señales provisionales;<br>3-señales mediante luces de los semáforos;<br>4-señales verticales y;<br>5-señales horizontales. ,-1,395
+1183,1-Señales mediante luces de los semáforos;<br>2- señales provisionales;<br>3-señales de los agentes de la autoridad;<br>4-señales verticales y;<br>5-señales horizontales.,0,395
+1184,1-Señales de los agentes de la autoridad;<br>2-señales mediante luces de los semáforos;<br>3- señales provisionales;<br>4-señales horizontales y;<br>5-señales verticales.,0,395
+1185,Que no se puede girar en la próxima intersección.,0,396
+1186,"A los vehículos, el sentido que deben seguir obligatoriamente en el punto donde está situada la señal.    ",0,396
+1187,"Que la vía por la cual se transita es de una sola dirección, en el sentido que indica la flecha de la señal.",-1,396
+1188,"Disminuir la velocidad y parar si fuera necesario, a fin de permitir el paso a todos los vehículos que se aproximan por la vía transversal por el lado izquierdo.",0,397
+1189,"Ceder el paso o detenerse si es necesario, ante el vehículo que por la vía transversal se aproxima por su lado derecho.	",-1,397
+1190,"Ceder el paso a los vehículos que se aproximan en sentido opuesto, por la misma vía.	",0,397
+1191,"Aparece con señales de alteración o deterioro, que hagan dudosa su autenticidad.
+",-1,398
+1192,"Haya sido obtenida por el Servicio Militar Activo.
+",0,398
+1193,Haya sido obtenida durante el cumplimiento de una misión fuera del país.,0,398
+1194,"Multa de 100.00 pesos.
+",-1,399
+1195,"Ocuparle la chapa del vehículo.
+",0,399
+1196,Suspensión de la licencia de conducción.,0,399
+1197,4 infracciones.,0,400
+1198,3 infracciones.,-1,400
+1199,2 infracciones.,0,400
+1200,La distancia a recorrer es de 25 metros.,0,224
