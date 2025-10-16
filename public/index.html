@@ -256,7 +256,7 @@
                 });
 
                 // Intenta cargar desde internet (data/transicuba.db)
-                const response = await fetch('data/transicuba.db');
+                const response = await fetch('public/database/transicuba.db');
                 if (!response.ok) throw new Error('No se pudo descargar la base remota');
 
                 const buffer = await response.arrayBuffer();
