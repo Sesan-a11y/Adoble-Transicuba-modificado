@@ -311,7 +311,7 @@
             try {
                 const questionsQuery = db.exec(`
                     SELECT id, enunciado, id_examen
-                    FROM tpregunta
+                    FROM tcpregunta
                     ORDER BY RANDOM()
                     LIMIT 20
                 `);
