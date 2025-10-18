@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adoble TransiCuba Modificado - Escuela de Manejo by Sesan-a11y</title>
+    <title>Adoble TransiCuba - Escuela de Manejo</title>
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/Sesan-a11y/Adoble-Transicuba-modificado/refs/heads/main/public/imagenes/favicon.ico">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js"></script>
     <style>
         * {
@@ -656,9 +657,6 @@
 
             html += `
                 <div class="navigation">
-                    <button class="nav-btn" onclick="previousQuestion()" ${currentQuestionIndex === 0 ? 'disabled' : ''}>
-                        ← Anterior
-                    </button>
                     <button class="exit-btn" onclick="confirmExit()">
                         🏠 Salir al Menú
                     </button>
@@ -706,13 +704,6 @@
             if (!answered) return;
             currentQuestionIndex++;
             showQuestion();
-        }
-
-        function previousQuestion() {
-            if (currentQuestionIndex > 0) {
-                currentQuestionIndex--;
-                showQuestion();
-            }
         }
 
         function showResults() {
